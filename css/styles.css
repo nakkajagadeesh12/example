@@ -1,4 +1,5 @@
 body{
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather',sans-serif ;
@@ -13,6 +14,29 @@ h1{
 
 #id1{
   font-weight: normal;
+}
+
+.pro{
+  width: 30%;
+  margin: 0 auto;
+}
+.profile{
+  margin: 100px auto;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  border-color: grey;
+  border-width: 5px;
+}
+.contact-me{
+  margin: 100px auto;
+}
+
+p{
+  line-height: 2;
 }
 
 h2{
@@ -35,9 +59,14 @@ h3{
 }
 
 .bottom-container{
-
+background-color: #66BFBF;
+padding: 50px 0 20px;
 }
 
+a{
+  margin: 10px 20px;
+  text-decoration: none;
+}
 .top-cimg{
   position: absolute;
   right: 300px;
@@ -58,7 +87,7 @@ h3{
 }
 
 .img1{
-  width: 50%;
+  width: 30%;
   float: left;
   height: 200px;
   margin-right: 25px;
